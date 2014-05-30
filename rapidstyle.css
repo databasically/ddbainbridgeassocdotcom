@@ -1,0 +1,63 @@
+/* D. D. Bainbridge & Associates, Inc. */
+
+body
+{
+background-color: #003300;
+color: #006600;
+font-size : 11px;
+font-family : Arial, Helvetica, sans-serif;
+font-weight : normal;
+
+scrollbar-3dlight-color:    #cccccc;
+scrollbar-arrow-color:      #FFFFFF;
+scrollbar-darkshadow-color: #003300;
+scrollbar-face-color:       #006600;
+scrollbar-highlight-color:  #009900;
+scrollbar-shadow-color:     #666666;
+scrollbar-track-color:      #eeeeee;
+
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px
+}
+
+input
+{
+	font-size : 11px;
+	height : 19px
+}
+
+select
+{
+	font-size : 11px
+}
+
+textarea
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px
+}
+
+/* default classes */
+td { font: 11px/130% Arial, Helvetica, sans-serif; color: #006600}
+
+h1 {  font: bold 18pt/100% Arial, Helvetica, sans-serif; color: #006600}
+h2 {  font: bold 16pt/100% Arial, Helvetica, sans-serif; color: #006600}
+h3 {  font: bold 14pt/100% Arial, Helvetica, sans-serif; color: #005500}
+h4 {  font: bold 13pt/100% Arial, Helvetica, sans-serif; color: #005500}
+h5 {  font: bold 12pt/100% Arial, Helvetica, sans-serif; color: #003300}
+h6 {  font: bold 11pt/100% Arial, Helvetica, sans-serif; color: #003300}
+
+a:active {  color: #006600; text-decoration: none}
+a:hover {  color: #009900; font-weight: bold}
+a:link {  color: #006600; text-decoration: underline}
+a:visited {  color: #666666; text-decoration: underline}
+
+hr { border: thin dotted; color: 006600;  }
+
+.itemHover { text-decoration: none; color: #ffffff; font: bolder 12px Arial, Helvetica}
+.itemHover2 { text-decoration: none; color: #ffffff; font: bolder 12px Arial, Helvetica}
+.itemText { text-decoration: none; color: #ffffff; font: bold 16px Arial, Helvetica}
+.ssitemBorder { border: 1px #003300 solid}
+.itemBorder { border: 1px #003300 solid}
