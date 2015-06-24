@@ -603,8 +603,8 @@ pMenu.onclick = function() { with (this)
  // You may with to use nested IFs or 'switch' statements etc. if you're familiar with JS.
  if (overM == 'root' && overI == 1)  location.href = '/AboutUS.html';
  if (overM == 'root' && overI == 2)  location.href = '/Services.html';
- if (overM == 'root' && overI == 3)  location.href = '/Healthcare Consulting.html';
- if (overM == 'root' && overI == 4)  location.href = '/Solutions in Health Care.html';
+ if (overM == 'root' && overI == 3)  location.href = '/HealthcareConsulting.html';
+ if (overM == 'root' && overI == 4)  location.href = '/SolutionsinHealthCare.html';
 }}
 
 
