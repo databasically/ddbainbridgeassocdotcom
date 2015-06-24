@@ -34,7 +34,7 @@ LyrFn('y','if (!isNaN(p)) sty.top=p; else return parseInt(sty.top)');
 LyrFn('vis','sty.visibility=p');
 LyrFn('bgColor','if (isNS4) sty.bgColor=(p?p:null); ' +
  'else sty.backgroundColor=p');
-LyrFn('bgImage','if (isNS4) sty.background.src=(p?p:null); ' + 
+LyrFn('bgImage','if (isNS4) sty.background.src=(p?p:null); ' +
   'else sty.backgroundImage=(p?"url("+p+")":"") ');
 LyrFn('write','if (isNS4) with (ref.document) {write(p);close()} else ref.innerHTML=p');
 LyrFn('alpha','var f=ref.filters; if (f) {' +
@@ -432,7 +432,7 @@ function popUpdate(upMN) { with (this)
      iW + '" height="' + iH + '" ' + (outCol ? (isImg ? 'background="' : 'bgcolor="') +
      outCol + '" ' : '');
    }
-   
+
    // Add mouseover and click handlers, contents, and finish div/layer.
    str += 'onMouseOver="' + myName + '.over(\'' + mN + '\',' + iN + ')" ' +
      'onMouseOut="' + myName + '.out(\'' + mN + '\',' + iN + ')">' +
@@ -451,7 +451,7 @@ function popUpdate(upMN) { with (this)
 
   // Now, create a new layer/div object using my setLyr() function above.
   // N.B: Still using properties of menu[mN][0]...
-  
+
   // If we've got a layer created already, there's no use creating another!.
   // In IE4, we must shrink the menus to stop them sizing to the full body size -- thanks
   // to Jeff Blum and Paul Maden for debugging this for me :). Also we've got to set a
@@ -569,28 +569,28 @@ addItem('&nbsp; About Us', 'mAbout', 'sm:', '');
 addItem('&nbsp; Services', 'mServices', 'sm:', '');
 addItem('&nbsp; Healthcare Consulting', 'mHC', 'sm:', '', 200);
 addItem('&nbsp; Solutions In Healthcare', 'mSolutions', 'sm:', '', 210);
-addItem('&nbsp; Newsletter', '/index.php?Newsletter', '', '', 120);
-addItem('&nbsp; Links', '/index.php?FavoriteLinks', '');
+addItem('&nbsp; Newsletter', '/Newsletter.html', '', '', 120);
+addItem('&nbsp; Links', '/FavoriteLinks.html', '');
 
 startMenu('mAbout', true, 0, 25, 180, subM);
-addItem('Qualifications Experience', '/index.php?QualificationsExperience', '');
-addItem('Corporate Mission', '/index.php?CorporateMission', '');
-addItem('Corporate Values', '/index.php?CorporateValues', '');
+addItem('Qualifications Experience', '/QualificationsExperience.html', '');
+addItem('Corporate Mission', '/CorporateMission.html', '');
+addItem('Corporate Values', '/CorporateValues.html', '');
 
 startMenu('mServices', true, 0, 25, 180, subM);
-addItem('Strategic Planning', '/index.php?StrategicPlanning', '', '');
-addItem('Strategic Management', '/index.php?StrategicManagememt', '');
-addItem('Rural Healthcare Network Development and Implementation', '/index.php?Network', '', '', 50);
-addItem('Performance Quality Improvement', '/index.php?PerformanceQualityImprovement', '');
-addItem('Risk Management', '/index.php?RiskManagement', '');
+addItem('Strategic Planning', '/StrategicPlanning.html', '', '');
+addItem('Strategic Management', '/StrategicManagememt.html', '');
+addItem('Rural Healthcare Network Development and Implementation', '/Network.html', '', '', 50);
+addItem('Performance Quality Improvement', '/PerformanceQualityImprovement.html', '');
+addItem('Risk Management', '/RiskManagement.html', '');
 
 startMenu('mHC', true, 0, 25, 185, subM);
-addItem('&nbsp;When to Call a Consultant', '/index.php?HealthCareConsultantWhen', '');
-addItem('&nbsp;Working With Your Consultant', '/index.php?HealthCareConsultantWhy', '');
+addItem('&nbsp;When to Call a Consultant', '/HealthCareConsultantWhen.html', '');
+addItem('&nbsp;Working With Your Consultant', '/HealthCareConsultantWhy.html', '');
 
 startMenu('mSolutions', true, 0, 25, 180, subM);
-addItem('Training Modules', '/index.php?Training', '');
-addItem('Sample Tools and Forms', '/index.php?Tools', '');
+addItem('Training Modules', '/Training.html', '');
+addItem('Sample Tools and Forms', '/Tools.html', '');
 addItem('Online Learning', 'http://coursework.ddbainbridgeassoc.com/', '');
 
 }
@@ -601,10 +601,10 @@ pMenu.onclick = function() { with (this)
 {
  // Do actions depending on the item that the mouse was over at the time of the click.
  // You may with to use nested IFs or 'switch' statements etc. if you're familiar with JS.
- if (overM == 'root' && overI == 1)  location.href = '/index.php?AboutUS';
- if (overM == 'root' && overI == 2)  location.href = '/index.php?Services';
- if (overM == 'root' && overI == 3)  location.href = '/index.php?Healthcare Consulting';
- if (overM == 'root' && overI == 4)  location.href = '/index.php?Solutions in Health Care';
+ if (overM == 'root' && overI == 1)  location.href = '/AboutUS.html';
+ if (overM == 'root' && overI == 2)  location.href = '/Services.html';
+ if (overM == 'root' && overI == 3)  location.href = '/Healthcare Consulting.html';
+ if (overM == 'root' && overI == 4)  location.href = '/Solutions in Health Care.html';
 }}
 
 
