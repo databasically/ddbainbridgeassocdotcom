@@ -589,7 +589,6 @@ addItem('&nbsp;When to Call a Consultant', '/HealthCareConsultantWhen.html', '')
 addItem('&nbsp;Working With Your Consultant', '/HealthCareConsultantWhy.html', '');
 
 startMenu('mSolutions', true, 0, 25, 180, subM);
-addItem('Training Modules', '/Training.html', '');
 addItem('Sample Tools and Forms', '/Tools.html', '');
 addItem('Online Learning', 'http://coursework.ddbainbridgeassoc.com/', '');
 
